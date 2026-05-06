@@ -51,7 +51,7 @@ const playerR = function () {
   }
 };
 const checkWinner = function () {
-  if (Number(document.getElementById(`score--${player}`).textContent) >= 10) {
+  if (Number(document.getElementById(`score--${player}`).textContent) >= 100) {
     document
       .querySelector(`.player--${player}`)
       .classList.add('player--winner');
